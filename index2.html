@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <div class="upper">
+            <div id="history">
+                <p id="history-value"></p>
+            </div>
+            <div id="result">
+                <p id="result-value"></p>
+            </div>
+        </div>
+
+        <div class="lower">
+            <div class="row">
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="%">%</button>
+                <button class="operator" id="/" style="background-color: rgb(148, 148, 246);font-weight: bolder;">/</button>
+            </div>
+            <div class="row">
+                <button class="number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button>
+                <button class="operator" id="*" style="background-color: rgb(202, 202, 59);font-weight: bolder;">*</button>
+            </div>
+            <div class="row">
+                <button class="number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button>
+                <button class="operator" id="-" style="background-color:rgb(249, 171, 184);font-weight: bolder;">-</button>
+            </div>
+            <div class="row">
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+                <button class="operator" id="+" style="background-color: rgb(161, 213, 230); font-weight: bolder;">+</button>
+            </div>
+            <div class="row last">
+                <button class="number" id="0">0</button>
+                <button class="operator" id=".">.</button>
+                <button class="operator" id="=" style="background-color: rgb(247, 173, 247);font-weight: bolder;">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
